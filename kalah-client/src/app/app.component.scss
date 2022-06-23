@@ -1,0 +1,17 @@
+.app-wrapper {
+    margin-top: 4rem;
+}
+
+.app-header {
+    text-align: center;
+    letter-spacing: 1rem;
+    padding: 0 40%; // set for gradient
+}
+
+h1 {
+    background-image: var(--gradient);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}

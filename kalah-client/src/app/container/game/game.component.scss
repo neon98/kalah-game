@@ -1,0 +1,95 @@
+.game-wrapper {
+    margin: 2rem 5rem;
+    background-color: var(--dark-secondary);
+    box-shadow: var(--box-shadow);
+}
+
+p {
+    font-size: var(--medium-font-size);
+    color: var(--dark-primary);
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+}
+
+.status>p {
+    font-size: var(--small-font-size);
+    font-weight: 500;
+}
+
+.status>p>span {
+    cursor: pointer;
+}
+
+.board-wrapper {
+    padding: 2rem 3rem;
+    padding-bottom: 4rem;
+}
+
+.pit {
+    margin: 3rem 0.5rem;
+    height: 6.5rem;
+    border-radius: var(--border-radius);
+    font-size: var(--large-font-size);
+    background: transparent;
+    border: none;
+    -webkit-box-shadow: var(--inset-box-shadow);
+    -moz-box-shadow: var(--inset-box-shadow);
+    box-shadow: var(--inset-box-shadow);
+}
+
+.kalaha {
+    margin: 8rem 1rem;
+    height: 13rem;
+    border-radius: var(--border-radius);
+    text-align: center; // to align the text horizontally centered
+    line-height: 13rem; // to align the text vertically centered
+    font-size: var(--large-font-size);
+    -webkit-box-shadow: var(--inset-box-shadow);
+    -moz-box-shadow: var(--inset-box-shadow);
+    box-shadow: var(--inset-box-shadow);
+}
+
+.player-1 {
+    color: var(--player1-primary-color);
+}
+
+.player-2 {
+    color: var(--player2-primary-color);
+}
+
+.pit.player-1:hover.player-1:enabled {
+    -webkit-box-shadow: var( --player1-shadow);
+    -moz-box-shadow: var( --player1-shadow);
+    box-shadow: var( --player1-shadow);
+}
+
+.pit.player-2:hover.player-2:enabled {
+    -webkit-box-shadow: var( --player2-shadow);
+    -moz-box-shadow: var( --player2-shadow);
+    box-shadow: var( --player2-shadow);
+}
+
+.no-game {
+    color: var(--dark-text-secondary);
+    font-weight: 500;
+    margin-top: 10rem;
+}
+
+.no-game>span {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.close {
+    cursor: pointer;
+    text-align: right;
+    color: var(--dark-text-secondary);
+    padding: 10px 15px 0 0;
+}
+
+.reset {
+    cursor: pointer;
+    text-decoration: underline;
+    color: var(--dark-text-secondary);
+}

@@ -1,0 +1,50 @@
+.home-wrapper {
+    margin: 2rem 0;
+    padding: 3rem;
+    background-color: var(--dark-secondary);
+    box-shadow: var(--box-shadow)
+}
+
+.intro {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+form {
+    margin-top: 3rem;
+}
+
+input,
+button {
+    background: transparent;
+    color: var(--dark-text);
+    padding: 1rem;
+    width: 100%;
+    border: none;
+}
+
+button {
+    margin: 2rem 0;
+    border: 3px solid;
+    border-image-slice: 1;
+    border-image-source: var(--gradient);
+    border-radius: 50em;
+}
+
+input {
+    border-bottom: 0.1rem solid var(--dark-text);
+    margin-bottom: 2rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
+
+button:hover {
+    transform: scale(1.02);
+    transition: .5s;
+}
